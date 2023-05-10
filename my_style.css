@@ -1,0 +1,61 @@
+
+    * {
+        font-family: 'Gowun Dodum', sans-serif;
+    }
+
+    .mytitle {
+        height: 250px;
+        width: 100%;
+
+        /* 외울필요 없이 세개는 복사해서 붙여넣기 url만 바꾸기 */
+        /* linear-gradient 이미지 어둡게 하기 0.5 부분 고치면 밝기 조절 가능 */
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.eroun.net/news/photo/201811/3566_15794_1740.jpg");
+        background-position: center;
+        background-size: cover;
+
+        color: white;
+
+        /* 외울필요 없이 네개는 복사해서붙여넣기 colum row만 바꿔쓰기*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mycomment {
+        color: grey;
+    }
+
+    .mycard {
+        max-width: 1200px;
+        width: 95%;
+        /* 세로방향 | 가로방향 */
+        /* 위 | 가로방향 | 아래 */
+        /* 위 | 오른쪽 | 아래 | 왼쪽 */
+        margin: 50px auto 0px auto;
+    }
+
+    .mypost {
+
+        max-width: 500px;
+        width: 95%;
+
+        margin: 30px auto 0px auto;
+
+        box-shadow: 0px 0px 3px 0px gray;
+
+        padding: 20px;
+    }
+
+    .mybtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 10px;
+    }
+
+    .mybtn>button {
+        margin-right: 10px;
+    }
